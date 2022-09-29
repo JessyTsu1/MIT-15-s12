@@ -27,11 +27,30 @@ Many tried to create a system to transfer money online, peer to peer
 
 Satoshi Nakamoto, in his `p2p e-cash paper` emailed on 31 October, 2008 answered this
 
-- Consensus Protocol
+- what is a bockchain?
+  
+    It’s time-stamped append logs
+    
+- Satoshi did not invent blockchain. It’s early 1990s by Stuart Haber, Bell Labs
+
+- Hash functions for tamper resistance and integrity
+
+    - It was the way to not only append the next block to the prior blocks, but really importantly, to compress data, to make it more manipulable, and to verify it
+    - Public-key private-key cryptography
+
+- Consensus Protocol  (Who decides to append the block?)
+
 - Cost of Trust
+
+- What is blockchain technology
+
+    - Verifiably moves 'data' on a decentralized network
+    - The 'data' can represent value or computer code
+    - Thus it goes directly to the plumbing of the financial sector and money
+
 - Byzantine Generals Problem (Satoshi solved this)
   - There is a group of generals preparing to attack. They need to reach a common consensus amongst themselves about whether to attack or not. They have to communicate among themselves. Some generals are actually perpetrators, so among these bad parties they need to reach a common consensus
- 
+
 - What is Money?
   - Store of Value
   - Medium of exchanging services
